@@ -1,4 +1,5 @@
 import "./logo.css"
-import react from 'react'
+import React from "react"
+import logo from "./foto.jpg"
 export default props =>
-<aside className="logo">logo</aside>
+    <><a href="./" className="foto"></a><img src ={logo}  alt="logo"/> </>

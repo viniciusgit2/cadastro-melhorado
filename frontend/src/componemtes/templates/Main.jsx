@@ -1,10 +1,10 @@
 
-import "./main.css"
-import react from 'react';
-import "./heather"
-import "./Logo"
-import "./Nav"
-import "./heather"
-import "./footer"
+
+import React from "react"
+import Heather from "./Heather"
+import Logo from "./Logo"
+import Footer from "./Footer"
+import Nav from "./Nav"
+import App from "../../main/App"
 export default props =>
-<div><nav>conteudo</nav>cabeçalho<header/> </div>
+<div className="main"><Footer /><Nav icon="home" title="menu" /> <Logo /> <Heather  />  </div>

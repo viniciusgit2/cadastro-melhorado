@@ -1,19 +1,38 @@
+body{
+    background-color: blue;
+}
 :root{
     --bg-dark:#1a2f3a;
     --logo-height:100px;
     --heather-height:100px;
     --aside-width:225px;
     --footer-heighter:40px;
-    ---shadow:
-    0px 23px 0 rgba(0,0,0,1)
-    0px 25px 0 rgba(0,0,0,6)
-
+ 
+   
 }*{box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-    .app{
+    .App{
         margin: auto;
         display: grid;
         grid-auto-flow: var(--aside-width);
         grid-template-rows: auto;
         grid-template-areas: "logo headers";
+        background-color: blueviolet;
+        grid-area: "logo" "heather" "footer";
+        height: auto;
+        background: #1a2f3a;
     }
+.Nav{margin: auto;
+display: flex;
+background-color: crimson;
+grid-auto-columns: auto;
+grid-template-rows: auto;
+grid-area: "logo","hether";
+height: 100vh;
+background-color: crimson;
+}
+aside.logo{grid-area: logo;}
+header.header{grid-area:heather;}
+aside.menu.area{grid-area: menu;}
+main.content{grid-area: content;}
+footer.footer {grid-area:footer;}

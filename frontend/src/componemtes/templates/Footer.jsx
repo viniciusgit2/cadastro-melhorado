@@ -1,4 +1,5 @@
-import "./footer.css"
+import "./logo.css"
 import React from "react"
+import logo from "./sol.jpg"
 export default props =>
-<footerfooter className="footer">rodapé</footerfooter>
+    <><a href="./" className="sol"></a><img src ={logo}  alt="logo"/> </>
